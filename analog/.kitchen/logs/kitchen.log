@@ -1,0 +1,150 @@
+I, [2016-07-20T02:13:26.767770 #37175]  INFO -- Kitchen: -----> Starting Kitchen (v1.10.2)
+I, [2016-07-20T02:13:30.201720 #37175]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-centos-67>
+I, [2016-07-20T02:13:30.201892 #37175]  INFO -- Kitchen: -----> Destroying <default-centos-67>...
+I, [2016-07-20T02:13:30.215896 #37175]  INFO -- Kitchen: -----> Testing <default-centos-67>
+I, [2016-07-20T02:13:30.215996 #37175]  INFO -- Kitchen: -----> Creating <default-centos-67>...
+I, [2016-07-20T02:16:15.456786 #37175]  INFO -- Kitchen: -----> Converging <default-centos-67>...
+I, [2016-07-20T02:16:40.930221 #37175]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-centos-72>
+I, [2016-07-20T02:16:40.963200 #37175]  INFO -- Kitchen: -----> Destroying <default-centos-72>...
+I, [2016-07-20T02:16:40.967340 #37175]  INFO -- Kitchen: -----> Testing <default-centos-72>
+I, [2016-07-20T02:16:40.967534 #37175]  INFO -- Kitchen: -----> Creating <default-centos-72>...
+I, [2016-07-20T02:19:50.383710 #37175]  INFO -- Kitchen: -----> Converging <default-centos-72>...
+E, [2016-07-20T02:20:39.606038 #37175] ERROR -- Kitchen: ------Exception-------
+E, [2016-07-20T02:20:39.606115 #37175] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2016-07-20T02:20:39.606142 #37175] ERROR -- Kitchen: Message: 2 actions failed.
+>>>>>>     Converge failed on instance <default-centos-67>.  Please see .kitchen/logs/default-centos-67.log for more details
+>>>>>>     Converge failed on instance <default-centos-72>.  Please see .kitchen/logs/default-centos-72.log for more details
+E, [2016-07-20T02:20:39.606161 #37175] ERROR -- Kitchen: ----------------------
+E, [2016-07-20T02:20:39.606177 #37175] ERROR -- Kitchen: ------Backtrace-------
+E, [2016-07-20T02:20:39.606192 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:187:in `report_errors'
+E, [2016-07-20T02:20:39.606208 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:178:in `run_action'
+E, [2016-07-20T02:20:39.606224 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command/test.rb:45:in `block in call'
+E, [2016-07-20T02:20:39.606239 #37175] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.606255 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command/test.rb:41:in `call'
+E, [2016-07-20T02:20:39.606271 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/cli.rb:56:in `perform'
+E, [2016-07-20T02:20:39.606292 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/cli.rb:231:in `test'
+E, [2016-07-20T02:20:39.606308 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2016-07-20T02:20:39.606324 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2016-07-20T02:20:39.606340 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/cli.rb:325:in `invoke_task'
+E, [2016-07-20T02:20:39.606355 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2016-07-20T02:20:39.606371 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2016-07-20T02:20:39.606386 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2016-07-20T02:20:39.606402 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/errors.rb:174:in `with_friendly_errors'
+E, [2016-07-20T02:20:39.606417 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/bin/kitchen:13:in `<top (required)>'
+E, [2016-07-20T02:20:39.606433 #37175] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `load'
+E, [2016-07-20T02:20:39.606448 #37175] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `<top (required)>'
+E, [2016-07-20T02:20:39.606482 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:63:in `load'
+E, [2016-07-20T02:20:39.606501 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:63:in `kernel_load'
+E, [2016-07-20T02:20:39.606516 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:24:in `run'
+E, [2016-07-20T02:20:39.606532 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/cli.rb:304:in `exec'
+E, [2016-07-20T02:20:39.606547 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+E, [2016-07-20T02:20:39.606562 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2016-07-20T02:20:39.606577 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+E, [2016-07-20T02:20:39.606593 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+E, [2016-07-20T02:20:39.606608 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/cli.rb:11:in `start'
+E, [2016-07-20T02:20:39.606624 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/exe/bundle:27:in `block in <top (required)>'
+E, [2016-07-20T02:20:39.606643 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/lib/bundler/friendly_errors.rb:98:in `with_friendly_errors'
+E, [2016-07-20T02:20:39.606659 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.12.5/exe/bundle:19:in `<top (required)>'
+E, [2016-07-20T02:20:39.606674 #37175] ERROR -- Kitchen: /usr/local/bin/bundle:23:in `load'
+E, [2016-07-20T02:20:39.606689 #37175] ERROR -- Kitchen: /usr/local/bin/bundle:23:in `<main>'
+E, [2016-07-20T02:20:39.606703 #37175] ERROR -- Kitchen: ----End Backtrace-----
+E, [2016-07-20T02:20:39.606717 #37175] ERROR -- Kitchen: -Composite Exception--
+E, [2016-07-20T02:20:39.606732 #37175] ERROR -- Kitchen: Class: Kitchen::InstanceFailure
+E, [2016-07-20T02:20:39.606746 #37175] ERROR -- Kitchen: Message: Converge failed on instance <default-centos-67>.  Please see .kitchen/logs/default-centos-67.log for more details
+E, [2016-07-20T02:20:39.606761 #37175] ERROR -- Kitchen: ----------------------
+E, [2016-07-20T02:20:39.606776 #37175] ERROR -- Kitchen: ------Backtrace-------
+E, [2016-07-20T02:20:39.606790 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:86:in `rescue in call'
+E, [2016-07-20T02:20:39.606805 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:89:in `call'
+E, [2016-07-20T02:20:39.606823 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:373:in `block in converge_action'
+E, [2016-07-20T02:20:39.606839 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:513:in `synchronize_or_call'
+E, [2016-07-20T02:20:39.606854 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:478:in `block in action'
+E, [2016-07-20T02:20:39.607030 #37175] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.607047 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:477:in `action'
+E, [2016-07-20T02:20:39.607063 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:369:in `converge_action'
+E, [2016-07-20T02:20:39.607078 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:348:in `block in transition_to'
+E, [2016-07-20T02:20:39.607104 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `each'
+E, [2016-07-20T02:20:39.607121 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `transition_to'
+E, [2016-07-20T02:20:39.607137 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2016-07-20T02:20:39.607152 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:189:in `block in test'
+E, [2016-07-20T02:20:39.607167 #37175] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.607182 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:185:in `test'
+E, [2016-07-20T02:20:39.607197 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2016-07-20T02:20:39.607212 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2016-07-20T02:20:39.607231 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2016-07-20T02:20:39.607248 #37175] ERROR -- Kitchen: ----End Backtrace-----
+E, [2016-07-20T02:20:39.607262 #37175] ERROR -- Kitchen: ---Nested Exception---
+E, [2016-07-20T02:20:39.607277 #37175] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2016-07-20T02:20:39.607291 #37175] ERROR -- Kitchen: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2016-07-20T02:20:39.607306 #37175] ERROR -- Kitchen: ----------------------
+E, [2016-07-20T02:20:39.607321 #37175] ERROR -- Kitchen: ------Backtrace-------
+E, [2016-07-20T02:20:39.607335 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:86:in `rescue in call'
+E, [2016-07-20T02:20:39.607350 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:89:in `call'
+E, [2016-07-20T02:20:39.607365 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:373:in `block in converge_action'
+E, [2016-07-20T02:20:39.607380 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:513:in `synchronize_or_call'
+E, [2016-07-20T02:20:39.607399 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:478:in `block in action'
+E, [2016-07-20T02:20:39.607414 #37175] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.607430 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:477:in `action'
+E, [2016-07-20T02:20:39.607445 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:369:in `converge_action'
+E, [2016-07-20T02:20:39.607460 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:348:in `block in transition_to'
+E, [2016-07-20T02:20:39.607475 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `each'
+E, [2016-07-20T02:20:39.607490 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `transition_to'
+E, [2016-07-20T02:20:39.607505 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2016-07-20T02:20:39.607520 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:189:in `block in test'
+E, [2016-07-20T02:20:39.607542 #37175] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.607561 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:185:in `test'
+E, [2016-07-20T02:20:39.607577 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2016-07-20T02:20:39.607593 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2016-07-20T02:20:39.607608 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2016-07-20T02:20:39.607623 #37175] ERROR -- Kitchen: ----End Backtrace-----
+E, [2016-07-20T02:20:39.607637 #37175] ERROR -- Kitchen: -Composite Exception--
+E, [2016-07-20T02:20:39.607652 #37175] ERROR -- Kitchen: Class: Kitchen::InstanceFailure
+E, [2016-07-20T02:20:39.607666 #37175] ERROR -- Kitchen: Message: Converge failed on instance <default-centos-72>.  Please see .kitchen/logs/default-centos-72.log for more details
+E, [2016-07-20T02:20:39.607681 #37175] ERROR -- Kitchen: ----------------------
+E, [2016-07-20T02:20:39.607696 #37175] ERROR -- Kitchen: ------Backtrace-------
+E, [2016-07-20T02:20:39.607710 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:86:in `rescue in call'
+E, [2016-07-20T02:20:39.607726 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:89:in `call'
+E, [2016-07-20T02:20:39.607744 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:373:in `block in converge_action'
+E, [2016-07-20T02:20:39.607760 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:513:in `synchronize_or_call'
+E, [2016-07-20T02:20:39.607775 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:478:in `block in action'
+E, [2016-07-20T02:20:39.607790 #37175] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.607805 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:477:in `action'
+E, [2016-07-20T02:20:39.607820 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:369:in `converge_action'
+E, [2016-07-20T02:20:39.607835 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:348:in `block in transition_to'
+E, [2016-07-20T02:20:39.607850 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `each'
+E, [2016-07-20T02:20:39.607865 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `transition_to'
+E, [2016-07-20T02:20:39.607880 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2016-07-20T02:20:39.607898 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:189:in `block in test'
+E, [2016-07-20T02:20:39.607914 #37175] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.607969 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:185:in `test'
+E, [2016-07-20T02:20:39.607985 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2016-07-20T02:20:39.608001 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2016-07-20T02:20:39.608023 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2016-07-20T02:20:39.608040 #37175] ERROR -- Kitchen: ----End Backtrace-----
+E, [2016-07-20T02:20:39.608055 #37175] ERROR -- Kitchen: ---Nested Exception---
+E, [2016-07-20T02:20:39.608069 #37175] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2016-07-20T02:20:39.608083 #37175] ERROR -- Kitchen: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2016-07-20T02:20:39.608102 #37175] ERROR -- Kitchen: ----------------------
+E, [2016-07-20T02:20:39.608116 #37175] ERROR -- Kitchen: ------Backtrace-------
+E, [2016-07-20T02:20:39.608131 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:86:in `rescue in call'
+E, [2016-07-20T02:20:39.608146 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:89:in `call'
+E, [2016-07-20T02:20:39.608162 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:373:in `block in converge_action'
+E, [2016-07-20T02:20:39.608176 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:513:in `synchronize_or_call'
+E, [2016-07-20T02:20:39.608192 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:478:in `block in action'
+E, [2016-07-20T02:20:39.608207 #37175] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.608222 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:477:in `action'
+E, [2016-07-20T02:20:39.608237 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:369:in `converge_action'
+E, [2016-07-20T02:20:39.608255 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:348:in `block in transition_to'
+E, [2016-07-20T02:20:39.608271 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `each'
+E, [2016-07-20T02:20:39.608286 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `transition_to'
+E, [2016-07-20T02:20:39.608301 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2016-07-20T02:20:39.608317 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:189:in `block in test'
+E, [2016-07-20T02:20:39.608332 #37175] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.608347 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:185:in `test'
+E, [2016-07-20T02:20:39.608362 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2016-07-20T02:20:39.608377 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2016-07-20T02:20:39.608392 #37175] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2016-07-20T02:20:39.608407 #37175] ERROR -- Kitchen: ----End Backtrace-----
