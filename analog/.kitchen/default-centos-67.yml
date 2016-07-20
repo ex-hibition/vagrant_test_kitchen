@@ -1,6 +1,0 @@
----
-hostname: 127.0.0.1
-port: '2203'
-username: vagrant
-ssh_key: "/Users/ex_hibition/Desktop/vagrant_test_kitchen/analog/.kitchen/kitchen-vagrant/kitchen-analog-default-centos-67/.vagrant/machines/default/virtualbox/private_key"
-last_action: create
