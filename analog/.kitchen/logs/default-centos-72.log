@@ -1,0 +1,195 @@
+I, [2016-07-20T02:16:40.962923 #37175]  INFO -- default-centos-72: -----> Cleaning up any prior instances of <default-centos-72>
+I, [2016-07-20T02:16:40.963290 #37175]  INFO -- default-centos-72: -----> Destroying <default-centos-72>...
+I, [2016-07-20T02:16:40.963889 #37175]  INFO -- default-centos-72: Finished destroying <default-centos-72> (0m0.00s).
+I, [2016-07-20T02:16:40.967408 #37175]  INFO -- default-centos-72: -----> Testing <default-centos-72>
+I, [2016-07-20T02:16:40.967568 #37175]  INFO -- default-centos-72: -----> Creating <default-centos-72>...
+I, [2016-07-20T02:16:46.937788 #37175]  INFO -- default-centos-72: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2016-07-20T02:16:47.260471 #37175]  INFO -- default-centos-72: ==> default: Box 'bento/centos-7.2' could not be found. Attempting to find and install...
+I, [2016-07-20T02:16:47.260860 #37175]  INFO -- default-centos-72:     default: Box Provider: virtualbox
+I, [2016-07-20T02:16:47.261002 #37175]  INFO -- default-centos-72:     default: Box Version: >= 0
+I, [2016-07-20T02:16:49.300023 #37175]  INFO -- default-centos-72: ==> default: Loading metadata for box 'bento/centos-7.2'
+I, [2016-07-20T02:16:49.300399 #37175]  INFO -- default-centos-72:     default: URL: https://atlas.hashicorp.com/bento/centos-7.2
+I, [2016-07-20T02:16:50.226636 #37175]  INFO -- default-centos-72: ==> default: Adding box 'bento/centos-7.2' (v2.2.7) for provider: virtualbox
+I, [2016-07-20T02:16:50.230887 #37175]  INFO -- default-centos-72:     default: Downloading: https://atlas.hashicorp.com/bento/boxes/centos-7.2/versions/2.2.7/providers/virtualbox.box
+I, [2016-07-20T02:18:20.629363 #37175]  INFO -- default-centos-72: [K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K    default: Progress: 100% (Rate: 173/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 120k/s, Estimated time remaining: 2:38:56)[K    default: Progress: 0% (Rate: 661k/s, Estimated time remaining: 0:18:58)[K    default: Progress: 1% (Rate: 2001k/s, Estimated time remaining: 0:05:13)[K    default: Progress: 2% (Rate: 2970k/s, Estimated time remaining: 0:03:07)[K    default: Progress: 4% (Rate: 3593k/s, Estimated time remaining: 0:02:22)[K    default: Progress: 6% (Rate: 4704k/s, Estimated time remaining: 0:02:01)[K    default: Progress: 7% (Rate: 5652k/s, Estimated time remaining: 0:01:48)[K    default: Progress: 9% (Rate: 5862k/s, Estimated time remaining: 0:01:38)[K    default: Progress: 10% (Rate: 5888k/s, Estimated time remaining: 0:01:31)[K    default: Progress: 12% (Rate: 5847k/s, Estimated time remaining: 0:01:26)[K    default: Progress: 13% (Rate: 5830k/s, Estimated time remaining: 0:01:22)[K    default: Progress: 15% (Rate: 5874k/s, Estimated time remaining: 0:01:18)[K    default: Progress: 16% (Rate: 5876k/s, Estimated time remaining: 0:01:14)[K    default: Progress: 18% (Rate: 5880k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 19% (Rate: 5891k/s, Estimated time remaining: 0:01:09)[K    default: Progress: 21% (Rate: 5910k/s, Estimated time remaining: 0:01:06)[K    default: Progress: 22% (Rate: 5852k/s, Estimated time remaining: 0:01:04)[K    default: Progress: 24% (Rate: 5814k/s, Estimated time remaining: 0:01:03)[K    default: Progress: 25% (Rate: 5817k/s, Estimated time remaining: 0:01:01)[K    default: Progress: 26% (Rate: 5694k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 28% (Rate: 5701k/s, Estimated time remaining: 0:00:57)[K    default: Progress: 29% (Rate: 5710k/s, Estimated time remaining: 0:00:56)[K    default: Progress: 31% (Rate: 5748k/s, Estimated time remaining: 0:00:54)[K    default: Progress: 33% (Rate: 5737k/s, Estimated time remaining: 0:00:53)[K    default: Progress: 34% (Rate: 5850k/s, Estimated time remaining: 0:00:51)[K    default: Progress: 35% (Rate: 5815k/s, Estimated time remaining: 0:00:50)[K    default: Progress: 37% (Rate: 5846k/s, Estimated time remaining: 0:00:48)[K    default: Progress: 38% (Rate: 5782k/s, Estimated time remaining: 0:00:47)[K    default: Progress: 40% (Rate: 5574k/s, Estimated time remaining: 0:00:46)[K    default: Progress: 41% (Rate: 5304k/s, Estimated time remaining: 0:00:45)[K    default: Progress: 42% (Rate: 5120k/s, Estimated time remaining: 0:00:44)[K    default: Progress: 43% (Rate: 4977k/s, Estimated time remaining: 0:00:43)[K    default: Progress: 45% (Rate: 4939k/s, Estimated time remaining: 0:00:42)[K    default: Progress: 46% (Rate: 5141k/s, Estimated time remaining: 0:00:41)[K    default: Progress: 48% (Rate: 5434k/s, Estimated time remaining: 0:00:40)[K    default: Progress: 49% (Rate: 5590k/s, Estimated time remaining: 0:00:38)[K    default: Progress: 51% (Rate: 5740k/s, Estimated time remaining: 0:00:37)[K    default: Progress: 52% (Rate: 5868k/s, Estimated time remaining: 0:00:36)[K    default: Progress: 54% (Rate: 5849k/s, Estimated time remaining: 0:00:35)[K    default: Progress: 55% (Rate: 5841k/s, Estimated time remaining: 0:00:33)[K    default: Progress: 57% (Rate: 5920k/s, Estimated time remaining: 0:00:32)[K    default: Progress: 58% (Rate: 5868k/s, Estimated time remaining: 0:00:31)[K    default: Progress: 60% (Rate: 5861k/s, Estimated time remaining: 0:00:30)[K    default: Progress: 61% (Rate: 5853k/s, Estimated time remaining: 0:00:29)[K    default: Progress: 63% (Rate: 5874k/s, Estimated time remaining: 0:00:27)[K    default: Progress: 64% (Rate: 5859k/s, Estimated time remaining: 0:00:26)[K    default: Progress: 66% (Rate: 5858k/s, Estimated time remaining: 0:00:25)[K    default: Progress: 67% (Rate: 5868k/s, Estimated time remaining: 0:00:24)[K    default: Progress: 69% (Rate: 5858k/s, Estimated time remaining: 0:00:23)[K    default: Progress: 70% (Rate: 5692k/s, Estimated time remaining: 0:00:22)[K    default: Progress: 72% (Rate: 5681k/s, Estimated time remaining: 0:00:21)[K    default: Progress: 73% (Rate: 5715k/s, Estimated time remaining: 0:00:19)[K    default: Progress: 75% (Rate: 5703k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 76% (Rate: 5741k/s, Estimated time remaining: 0:00:17)[K    default: Progress: 78% (Rate: 5868k/s, Estimated time remaining: 0:00:16)[K    default: Progress: 79% (Rate: 5901k/s, Estimated time remaining: 0:00:15)[K    default: Progress: 81% (Rate: 5901k/s, Estimated time remaining: 0:00:14)[K    default: Progress: 82% (Rate: 5878k/s, Estimated time remaining: 0:00:13)[K    default: Progress: 84% (Rate: 5851k/s, Estimated time remaining: 0:00:12)[K    default: Progress: 85% (Rate: 5877k/s, Estimated time remaining: 0:00:10)[K    default: Progress: 87% (Rate: 5886k/s, Estimated time remaining: 0:00:09)[K    default: Progress: 88% (Rate: 5868k/s, Estimated time remaining: 0:00:08)[K    default: Progress: 90% (Rate: 5865k/s, Estimated time remaining: 0:00:07)[K    default: Progress: 91% (Rate: 5889k/s, Estimated time remaining: 0:00:06)[K    default: Progress: 93% (Rate: 5894k/s, Estimated time remaining: 0:00:05)[K    default: Progress: 94% (Rate: 5852k/s, Estimated time remaining: 0:00:04)[K    default: Progress: 96% (Rate: 5855k/s, Estimated time remaining: 0:00:03)[K    default: Progress: 97% (Rate: 5872k/s, Estimated time remaining: 0:00:02)[K    default: Progress: 99% (Rate: 5883k/s, Estimated time remaining: 0:00:01)[K==> default: Successfully added box 'bento/centos-7.2' (v2.2.7) for 'virtualbox'!
+I, [2016-07-20T02:18:20.865688 #37175]  INFO -- default-centos-72: ==> default: Importing base box 'bento/centos-7.2'...
+I, [2016-07-20T02:18:53.510822 #37175]  INFO -- default-centos-72: [KProgress: 20%[KProgress: 50%[KProgress: 70%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2016-07-20T02:18:53.715390 #37175]  INFO -- default-centos-72: ==> default: Checking if box 'bento/centos-7.2' is up to date...
+I, [2016-07-20T02:18:56.137370 #37175]  INFO -- default-centos-72: ==> default: Setting the name of the VM: kitchen-analog-default-centos-72_default_1468948736093_71014
+I, [2016-07-20T02:18:57.150013 #37175]  INFO -- default-centos-72: ==> default: Fixed port collision for 22 => 2222. Now on port 2204.
+I, [2016-07-20T02:18:57.229920 #37175]  INFO -- default-centos-72: ==> default: Clearing any previously set network interfaces...
+I, [2016-07-20T02:18:57.293582 #37175]  INFO -- default-centos-72: ==> default: Preparing network interfaces based on configuration...
+I, [2016-07-20T02:18:57.294031 #37175]  INFO -- default-centos-72:     default: Adapter 1: nat
+I, [2016-07-20T02:18:57.361129 #37175]  INFO -- default-centos-72: ==> default: Forwarding ports...
+I, [2016-07-20T02:18:57.441449 #37175]  INFO -- default-centos-72:     default: 22 (guest) => 2204 (host) (adapter 1)
+I, [2016-07-20T02:18:57.607216 #37175]  INFO -- default-centos-72: ==> default: Booting VM...
+I, [2016-07-20T02:18:57.993681 #37175]  INFO -- default-centos-72: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2016-07-20T02:18:58.550954 #37175]  INFO -- default-centos-72:     default: SSH address: 127.0.0.1:2204
+I, [2016-07-20T02:18:58.551252 #37175]  INFO -- default-centos-72:     default: SSH username: vagrant
+I, [2016-07-20T02:18:58.551557 #37175]  INFO -- default-centos-72:     default: SSH auth method: private key
+I, [2016-07-20T02:19:31.530014 #37175]  INFO -- default-centos-72:     default: 
+I, [2016-07-20T02:19:31.549934 #37175]  INFO -- default-centos-72:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2016-07-20T02:19:31.549994 #37175]  INFO -- default-centos-72:     default: this with a newly generated keypair for better security.
+I, [2016-07-20T02:19:32.927618 #37175]  INFO -- default-centos-72:     default: 
+I, [2016-07-20T02:19:32.927679 #37175]  INFO -- default-centos-72:     default: Inserting generated public key within guest...
+I, [2016-07-20T02:19:33.205144 #37175]  INFO -- default-centos-72:     default: Removing insecure key from the guest if it's present...
+I, [2016-07-20T02:19:33.478007 #37175]  INFO -- default-centos-72:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2016-07-20T02:19:34.131159 #37175]  INFO -- default-centos-72: ==> default: Machine booted and ready!
+I, [2016-07-20T02:19:34.131583 #37175]  INFO -- default-centos-72: ==> default: Checking for guest additions in VM...
+I, [2016-07-20T02:19:34.233591 #37175]  INFO -- default-centos-72: ==> default: Setting hostname...
+I, [2016-07-20T02:19:36.745876 #37175]  INFO -- default-centos-72: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2016-07-20T02:19:50.317722 #37175]  INFO -- default-centos-72: [SSH] Established
+I, [2016-07-20T02:19:50.352063 #37175]  INFO -- default-centos-72: Vagrant instance <default-centos-72> created.
+I, [2016-07-20T02:19:50.383566 #37175]  INFO -- default-centos-72: Finished creating <default-centos-72> (3m9.39s).
+I, [2016-07-20T02:19:50.399033 #37175]  INFO -- default-centos-72: -----> Converging <default-centos-72>...
+I, [2016-07-20T02:19:50.414656 #37175]  INFO -- default-centos-72: Preparing files for transfer
+I, [2016-07-20T02:19:50.414921 #37175]  INFO -- default-centos-72: Preparing dna.json
+I, [2016-07-20T02:19:50.415533 #37175]  INFO -- default-centos-72: Preparing current project directory as a cookbook
+I, [2016-07-20T02:19:50.722557 #37175]  INFO -- default-centos-72: Removing non-cookbook files before transfer
+I, [2016-07-20T02:19:50.727657 #37175]  INFO -- default-centos-72: Preparing solo.rb
+I, [2016-07-20T02:19:50.985903 #37175]  INFO -- default-centos-72: -----> Installing Chef Omnibus (install only if missing)
+I, [2016-07-20T02:19:50.994013 #37175]  INFO -- default-centos-72: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2016-07-20T02:19:51.009289 #37175]  INFO -- default-centos-72: Trying wget...
+I, [2016-07-20T02:19:51.819719 #37175]  INFO -- default-centos-72: Download complete.
+I, [2016-07-20T02:19:51.898943 #37175]  INFO -- default-centos-72: el 7 x86_64
+I, [2016-07-20T02:19:51.899002 #37175]  INFO -- default-centos-72: Getting information for chef stable  for el...
+I, [2016-07-20T02:19:51.899049 #37175]  INFO -- default-centos-72: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2016-07-20T02:19:51.899071 #37175]  INFO -- default-centos-72:   to file /tmp/install.sh.7195/metadata.txt
+I, [2016-07-20T02:19:51.899948 #37175]  INFO -- default-centos-72: trying wget...
+I, [2016-07-20T02:19:52.906164 #37175]  INFO -- default-centos-72: sha1	92d14fa522ff14b1e22622312c8271db3cc0d512
+I, [2016-07-20T02:19:52.906222 #37175]  INFO -- default-centos-72: sha256	ce1f216242f26d7274c108a9cb9d8add7095727e039bac968de9291f56a90c25
+I, [2016-07-20T02:19:52.906243 #37175]  INFO -- default-centos-72: url	https://packages.chef.io/stable/el/7/chef-12.12.15-1.el7.x86_64.rpm
+I, [2016-07-20T02:19:52.906263 #37175]  INFO -- default-centos-72: version	12.12.15
+I, [2016-07-20T02:19:52.908105 #37175]  INFO -- default-centos-72: downloaded metadata file looks valid...
+I, [2016-07-20T02:19:52.955126 #37175]  INFO -- default-centos-72: downloading https://packages.chef.io/stable/el/7/chef-12.12.15-1.el7.x86_64.rpm
+I, [2016-07-20T02:19:52.955204 #37175]  INFO -- default-centos-72:   to file /tmp/install.sh.7195/chef-12.12.15-1.el7.x86_64.rpm
+I, [2016-07-20T02:19:52.957031 #37175]  INFO -- default-centos-72: trying wget...
+I, [2016-07-20T02:19:57.061512 #37175]  INFO -- default-centos-72: Comparing checksum with sha256sum...
+I, [2016-07-20T02:19:57.386397 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:19:57.386456 #37175]  INFO -- default-centos-72: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2016-07-20T02:19:57.386484 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:19:57.386503 #37175]  INFO -- default-centos-72: You are installing an omnibus package without a version pin.  If you are installing
+I, [2016-07-20T02:19:57.386523 #37175]  INFO -- default-centos-72: on production servers via an automated process this is DANGEROUS and you will
+I, [2016-07-20T02:19:57.386542 #37175]  INFO -- default-centos-72: be upgraded without warning on new releases, even to new major releases.
+I, [2016-07-20T02:19:57.386561 #37175]  INFO -- default-centos-72: Letting the version float is only appropriate in desktop, test, development or
+I, [2016-07-20T02:19:57.386580 #37175]  INFO -- default-centos-72: CI/CD environments.
+I, [2016-07-20T02:19:57.386601 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:19:57.386619 #37175]  INFO -- default-centos-72: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2016-07-20T02:19:57.386692 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:19:57.386713 #37175]  INFO -- default-centos-72: Installing chef 
+I, [2016-07-20T02:19:57.386731 #37175]  INFO -- default-centos-72: installing with rpm...
+I, [2016-07-20T02:19:57.706183 #37175]  INFO -- default-centos-72: 警告: /tmp/install.sh.7195/chef-12.12.15-1.el7.x86_64.rpm: ヘッダー V4 DSA/SHA1 Signature、鍵 ID 83ef826a: NOKEY
+I, [2016-07-20T02:19:59.349310 #37175]  INFO -- default-centos-72: 準備しています...                                                (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2016-07-20T02:19:59.349391 #37175]  INFO -- default-centos-72: 更新中 / インストール中...
+I, [2016-07-20T02:20:30.941247 #37175]  INFO -- default-centos-72:    1:chef-12.12.15-1.el7                                                (  1%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 51%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2016-07-20T02:20:31.972529 #37175]  INFO -- default-centos-72: Thank you for installing Chef!
+I, [2016-07-20T02:20:32.326859 #37175]  INFO -- default-centos-72: Transferring files to <default-centos-72>
+I, [2016-07-20T02:20:33.701768 #37175]  INFO -- default-centos-72: Starting Chef Client, version 12.12.15
+I, [2016-07-20T02:20:38.998536 #37175]  INFO -- default-centos-72: Creating a new client identity for default-centos-72 using the validator key.
+I, [2016-07-20T02:20:39.209636 #37175]  INFO -- default-centos-72: resolving cookbooks for run list: ["analog::default"]
+I, [2016-07-20T02:20:39.219210 #37175]  INFO -- default-centos-72: Synchronizing Cookbooks:
+I, [2016-07-20T02:20:39.225450 #37175]  INFO -- default-centos-72:   - analog (0.1.0)
+I, [2016-07-20T02:20:39.240039 #37175]  INFO -- default-centos-72: Installing Cookbook Gems:
+I, [2016-07-20T02:20:39.240118 #37175]  INFO -- default-centos-72: Compiling Cookbooks...
+I, [2016-07-20T02:20:39.240156 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:20:39.240198 #37175]  INFO -- default-centos-72: ================================================================================
+I, [2016-07-20T02:20:39.240234 #37175]  INFO -- default-centos-72: Recipe Compile Error in /tmp/kitchen/cache/cookbooks/analog/recipes/default.rb
+I, [2016-07-20T02:20:39.240271 #37175]  INFO -- default-centos-72: ================================================================================
+I, [2016-07-20T02:20:39.240305 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:20:39.240335 #37175]  INFO -- default-centos-72: ArgumentError
+I, [2016-07-20T02:20:39.240364 #37175]  INFO -- default-centos-72: -------------
+I, [2016-07-20T02:20:39.240395 #37175]  INFO -- default-centos-72: wrong number of arguments (1 for 0)
+I, [2016-07-20T02:20:39.240426 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:20:39.240454 #37175]  INFO -- default-centos-72: Cookbook Trace:
+I, [2016-07-20T02:20:39.240485 #37175]  INFO -- default-centos-72: ---------------
+I, [2016-07-20T02:20:39.240513 #37175]  INFO -- default-centos-72:   /tmp/kitchen/cache/cookbooks/analog/recipes/default.rb:9:in `from_file'
+I, [2016-07-20T02:20:39.240550 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:20:39.240580 #37175]  INFO -- default-centos-72: Relevant File Content:
+I, [2016-07-20T02:20:39.240609 #37175]  INFO -- default-centos-72: ----------------------
+I, [2016-07-20T02:20:39.240639 #37175]  INFO -- default-centos-72: /tmp/kitchen/cache/cookbooks/analog/recipes/default.rb:
+I, [2016-07-20T02:20:39.240669 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:20:39.240701 #37175]  INFO -- default-centos-72:   2:  # Cookbook Name:: analog
+I, [2016-07-20T02:20:39.240734 #37175]  INFO -- default-centos-72:   3:  # Recipe:: default
+I, [2016-07-20T02:20:39.240762 #37175]  INFO -- default-centos-72:   4:  #
+I, [2016-07-20T02:20:39.240800 #37175]  INFO -- default-centos-72:   5:  # Copyright 2016, YOUR_COMPANY_NAME
+I, [2016-07-20T02:20:39.240831 #37175]  INFO -- default-centos-72:   6:  #
+I, [2016-07-20T02:20:39.240865 #37175]  INFO -- default-centos-72:   7:  # All rights reserved - Do Not Redistribute
+I, [2016-07-20T02:20:39.240894 #37175]  INFO -- default-centos-72:   8:  #
+I, [2016-07-20T02:20:39.240931 #37175]  INFO -- default-centos-72:   9>> case node [:pratform]
+I, [2016-07-20T02:20:39.240966 #37175]  INFO -- default-centos-72:  10:  when "centos"
+I, [2016-07-20T02:20:39.240998 #37175]  INFO -- default-centos-72:  11:  	platform_version = node[:platform_version].to_f
+I, [2016-07-20T02:20:39.241059 #37175]  INFO -- default-centos-72:  12:  
+I, [2016-07-20T02:20:39.241093 #37175]  INFO -- default-centos-72:  13:  	if platform_version >= 6.0 then
+I, [2016-07-20T02:20:39.241239 #37175]  INFO -- default-centos-72:  14:  		rmpfile = "analog-6.0.4-1.x86_64.rpm"
+I, [2016-07-20T02:20:39.241278 #37175]  INFO -- default-centos-72:  15:  	elsif platform_version >= 5.0 then
+I, [2016-07-20T02:20:39.241304 #37175]  INFO -- default-centos-72:  16:  		rmpfile = "analog-6.0.4-1.el5.i386.rpm"
+I, [2016-07-20T02:20:39.241334 #37175]  INFO -- default-centos-72:  17:  	else
+I, [2016-07-20T02:20:39.241367 #37175]  INFO -- default-centos-72:  18:  		raise "This recipe can not be applied to this environment!!"
+I, [2016-07-20T02:20:39.241395 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:20:39.241421 #37175]  INFO -- default-centos-72: Platform:
+I, [2016-07-20T02:20:39.241449 #37175]  INFO -- default-centos-72: ---------
+I, [2016-07-20T02:20:39.241478 #37175]  INFO -- default-centos-72: x86_64-linux
+I, [2016-07-20T02:20:39.241512 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:20:39.241540 #37175]  INFO -- default-centos-72: 
+I, [2016-07-20T02:20:39.241573 #37175]  INFO -- default-centos-72: Running handlers:
+I, [2016-07-20T02:20:39.241605 #37175]  INFO -- default-centos-72: [2016-07-19T17:20:37+00:00] ERROR: Running exception handlers
+I, [2016-07-20T02:20:39.241640 #37175]  INFO -- default-centos-72: Running handlers complete
+I, [2016-07-20T02:20:39.241669 #37175]  INFO -- default-centos-72: [2016-07-19T17:20:37+00:00] ERROR: Exception handlers complete
+I, [2016-07-20T02:20:39.241698 #37175]  INFO -- default-centos-72: Chef Client failed. 0 resources updated in 05 seconds
+I, [2016-07-20T02:20:39.241727 #37175]  INFO -- default-centos-72: [2016-07-19T17:20:37+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2016-07-20T02:20:39.241756 #37175]  INFO -- default-centos-72: [2016-07-19T17:20:37+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2016-07-20T02:20:39.241789 #37175]  INFO -- default-centos-72: [2016-07-19T17:20:37+00:00] ERROR: wrong number of arguments (1 for 0)
+I, [2016-07-20T02:20:39.577087 #37175]  INFO -- default-centos-72: [2016-07-19T17:20:37+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2016-07-20T02:20:39.602432 #37175] ERROR -- default-centos-72: Converge failed on instance <default-centos-72>.
+E, [2016-07-20T02:20:39.602588 #37175] ERROR -- default-centos-72: ------Exception-------
+E, [2016-07-20T02:20:39.602625 #37175] ERROR -- default-centos-72: Class: Kitchen::ActionFailed
+E, [2016-07-20T02:20:39.602654 #37175] ERROR -- default-centos-72: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2016-07-20T02:20:39.602679 #37175] ERROR -- default-centos-72: ----------------------
+E, [2016-07-20T02:20:39.602700 #37175] ERROR -- default-centos-72: ------Backtrace-------
+E, [2016-07-20T02:20:39.602721 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:86:in `rescue in call'
+E, [2016-07-20T02:20:39.602753 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:89:in `call'
+E, [2016-07-20T02:20:39.602768 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:373:in `block in converge_action'
+E, [2016-07-20T02:20:39.602785 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:513:in `synchronize_or_call'
+E, [2016-07-20T02:20:39.602805 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:478:in `block in action'
+E, [2016-07-20T02:20:39.602832 #37175] ERROR -- default-centos-72: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.602850 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:477:in `action'
+E, [2016-07-20T02:20:39.602865 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:369:in `converge_action'
+E, [2016-07-20T02:20:39.602890 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:348:in `block in transition_to'
+E, [2016-07-20T02:20:39.602908 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `each'
+E, [2016-07-20T02:20:39.602936 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `transition_to'
+E, [2016-07-20T02:20:39.602962 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2016-07-20T02:20:39.602988 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:189:in `block in test'
+E, [2016-07-20T02:20:39.603013 #37175] ERROR -- default-centos-72: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.603035 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:185:in `test'
+E, [2016-07-20T02:20:39.603064 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2016-07-20T02:20:39.603091 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2016-07-20T02:20:39.603122 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2016-07-20T02:20:39.603141 #37175] ERROR -- default-centos-72: ----End Backtrace-----
+E, [2016-07-20T02:20:39.603155 #37175] ERROR -- default-centos-72: ---Nested Exception---
+E, [2016-07-20T02:20:39.603168 #37175] ERROR -- default-centos-72: Class: Kitchen::Transport::SshFailed
+E, [2016-07-20T02:20:39.603190 #37175] ERROR -- default-centos-72: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2016-07-20T02:20:39.603205 #37175] ERROR -- default-centos-72: ----------------------
+E, [2016-07-20T02:20:39.603236 #37175] ERROR -- default-centos-72: ------Backtrace-------
+E, [2016-07-20T02:20:39.603260 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:86:in `rescue in call'
+E, [2016-07-20T02:20:39.603285 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/provisioner/base.rb:89:in `call'
+E, [2016-07-20T02:20:39.603310 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:373:in `block in converge_action'
+E, [2016-07-20T02:20:39.603348 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:513:in `synchronize_or_call'
+E, [2016-07-20T02:20:39.603374 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:478:in `block in action'
+E, [2016-07-20T02:20:39.603399 #37175] ERROR -- default-centos-72: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.603421 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:477:in `action'
+E, [2016-07-20T02:20:39.603452 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:369:in `converge_action'
+E, [2016-07-20T02:20:39.603480 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:348:in `block in transition_to'
+E, [2016-07-20T02:20:39.603506 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `each'
+E, [2016-07-20T02:20:39.603527 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:347:in `transition_to'
+E, [2016-07-20T02:20:39.603552 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2016-07-20T02:20:39.603588 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:189:in `block in test'
+E, [2016-07-20T02:20:39.603614 #37175] ERROR -- default-centos-72: /usr/local/Cellar/ruby/2.3.1/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-07-20T02:20:39.603643 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/instance.rb:185:in `test'
+E, [2016-07-20T02:20:39.603668 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2016-07-20T02:20:39.603693 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2016-07-20T02:20:39.603717 #37175] ERROR -- default-centos-72: /usr/local/lib/ruby/gems/2.3.0/gems/test-kitchen-1.10.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2016-07-20T02:20:39.603742 #37175] ERROR -- default-centos-72: ----End Backtrace-----
